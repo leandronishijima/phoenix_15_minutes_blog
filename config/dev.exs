@@ -70,6 +70,6 @@ config :phoenix, :plug_init_mode, :runtime
 config :phoenix_15_minutes_blog, Phoenix15MinutesBlog.Repo,
   username: "postgres",
   password: "postgres",
-  database: "phoenix_15_minutes_blog_dev",
+  database: "postgres",
   hostname: "localhost",
   pool_size: 10
